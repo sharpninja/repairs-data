@@ -391,8 +391,8 @@
       "id": "mkt-flat-tire-spare-install-underbody-pickup-20260711133056",
       "guide": {
         "title": "Flat Tire Spare Install — Underbody Pickup Spare",
-        "subtitle": "Silverado 1500, F-150, and Ram 1500 roadside spare workflow",
-        "safety": "Pickup spares are heavy and often stored under the bed. Work only on firm, level ground away from traffic. Do not put any part of your body under the truck while it is supported only by the jack.",
+        "subtitle": "Silverado 1500, F-150, and Ram 1500 roadside spare workflow; verify the exact truck, trim, drivetrain, wheel package, and lift points",
+        "safety": "Pickup spares are heavy and often stored under the bed. This is a roadside workflow, not a vehicle-specific lift-point, spare-hoist, or lug-torque chart. Work only on firm, level ground away from traffic. Do not put any part of your body under the truck while it is supported only by the jack.",
         "region": "us",
         "env": [
           "roadside",
@@ -425,7 +425,8 @@
                     "type": "steps",
                     "items": [
                       "Find the jack, lug wrench, spare crank rods, wheel lock key if equipped, and the spare access hole.",
-                      "Use the owner manual diagram; pickup crank rods often assemble in a specific order.",
+                      "Use the owner manual diagram for the exact truck; pickup crank rods, access locks, and hoist routing vary by cab, bed, trim, and model year.",
+                      "Before lifting, open the owner manual jack section and identify the exact axle, frame, or control-point location shown for that wheel.",
                       "Lower the spare fully, slide it out, and confirm it is inflated and not rust-stuck or cable-damaged."
                     ]
                   },
@@ -433,6 +434,11 @@
                     "type": "crit",
                     "title": "Do not improvise the hoist drive",
                     "text": "If the spare hoist, key, or cable is seized, roadside force can strand the truck worse. Call assistance."
+                  },
+                  {
+                    "type": "note",
+                    "title": "Fitment limit",
+                    "text": "Silverado 1500, F-150, and Ram 1500 trucks share the same underbody-spare workflow, but lift points, hoist keys, jack placement, wheel locks, load rating, and lug torque vary by exact year, trim, drivetrain, wheel package, and bed/cab configuration."
                   }
                 ]
               }
@@ -449,15 +455,15 @@
                   {
                     "type": "check",
                     "items": [
-                      "Proper tool: OEM spare-lowering kit, rated bottle/factory jack at the correct axle/frame point, wheel chocks, breaker bar, torque wrench, gloves, and kneeling pad.",
+                      "Proper tool: owner manual or service data for the exact truck, OEM spare-lowering kit, rated bottle/factory jack at the verified axle/frame lift point, wheel chocks, breaker bar, torque wrench, gloves, and kneeling pad.",
                       "Likely-carried tool: factory jack, crank rods, OEM lug wrench, hitch-area access tools, phone flashlight, and work gloves.",
-                      "No-go if: loaded trailer, unstable cargo, soft shoulder, seized spare hoist, missing lock key, or traffic-side work."
+                      "No-go if: you cannot confirm the lift point, loaded trailer, unstable cargo, soft shoulder, seized spare hoist, missing lock key, or traffic-side work."
                     ]
                   },
                   {
                     "type": "spec",
-                    "text": "Pickup lug torque is high and varies by truck and wheel.",
-                    "verify": "Use the exact owner manual torque and recheck with a torque wrench as soon as practical."
+                    "text": "Pickup lug torque is high and varies by truck, wheel, trim, and model year.",
+                    "verify": "Use the exact owner manual or service-data torque for the VIN and recheck with a torque wrench before normal driving or towing."
                   }
                 ]
               }
@@ -475,7 +481,7 @@
                     "type": "steps",
                     "items": [
                       "Break lug nuts loose before lifting.",
-                      "Lift at the approved point; keep the truck as low as possible while clearing the tire.",
+                      "Lift only at the owner-manual verified axle/frame point for that wheel; keep the truck as low as possible while clearing the tire.",
                       "Hand-start all lug nuts, snug in a star pattern, lower, then tighten in stages.",
                       "Secure the flat tire in the bed or underbody carrier only if the hoist and cable are working correctly."
                     ]
