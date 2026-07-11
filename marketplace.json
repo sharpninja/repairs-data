@@ -386,6 +386,192 @@
         }
       ],
       "addedAt": 1715000000000
+    },
+    {
+      "id": "mkt-flat-tire-spare-install-cars-crossovers--20260711133052",
+      "guide": {
+        "title": "Flat Tire Spare Install — Cars, Crossovers, and SUVs",
+        "subtitle": "Common 2012–2022 cars, crossovers, and SUVs in the selected set; verify the exact trim has a spare, jack, and documented lift points",
+        "safety": "Change a tire only on firm, level ground away from traffic. This is a roadside workflow, not a vehicle-specific lift-point or torque chart. Never crawl under a vehicle supported by the factory jack. If the flat is on the traffic side or the shoulder is narrow, call for roadside assistance.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Locate and Stage",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Find the spare, jack, lug wrench, and lock key",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Check the cargo floor, side compartment, tailgate area, or rear-mounted spare location.",
+                      "Open the owner manual jack section for your exact year, model, body style, and trim before lifting.",
+                      "Use only the lift point shown in the owner manual or a factory-stamped pinch-weld mark that matches that diagram.",
+                      "Set the parking brake and chock a wheel opposite the flat if you have a chock or a solid improvised block."
+                    ]
+                  },
+                  {
+                    "type": "crit",
+                    "title": "Some trims have no spare",
+                    "text": "If the vehicle has only an inflator/sealant kit and the tire is shredded, sidewall-damaged, or off the bead, call for a tow."
+                  },
+                  {
+                    "type": "note",
+                    "title": "Fitment limit",
+                    "text": "The listed vehicles share the same basic spare-tire workflow, but spare location, jack storage, lift points, wheel locks, compact-spare limits, and lug torque can vary by trim and wheel package."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Use the safest lifting tools available",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: owner manual or service data for the exact vehicle, factory jack at the verified lift point, wheel chocks, breaker bar, torque wrench, wheel lock key, gloves, and reflective marker.",
+                      "Likely-carried tool: OEM scissor jack, OEM lug wrench, spare-tire kit, floor mat as a kneeling pad, phone flashlight, and a passenger watching traffic.",
+                      "No-go if: you cannot confirm the lift point, ground is soft, sloped, icy, narrow, or the wheel cannot be safely removed without entering traffic."
+                    ]
+                  },
+                  {
+                    "type": "spec",
+                    "text": "Lug-nut torque varies by vehicle, wheel, trim, and model year.",
+                    "verify": "Use the owner manual or service data for the exact VIN; temporary roadside tightening must be rechecked with a torque wrench before normal driving."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Change and Verify",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Install the spare and limit speed",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Loosen lug nuts 1/2 turn while the tire is on the ground.",
+                      "Jack only at the verified owner-manual or matching stamped lift point until the tire clears the ground.",
+                      "Install the spare, hand-start all lug nuts, snug in a star pattern, lower the vehicle, then tighten again in a star pattern.",
+                      "Stow the flat, tools, and jack before driving."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "All lugs hand-started without cross-threading",
+                      "Jack removed and tools stowed",
+                      "Temporary spare speed and distance limits followed",
+                      "Lug torque and tire pressure rechecked at home or shop"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "id": "jack-and-stands",
+            "d": "Driveway proper support; roadside factory jack only for wheel change"
+          },
+          {
+            "id": "wheel-chocks",
+            "d": "Prevent rolling"
+          },
+          {
+            "id": "breaker-bar",
+            "d": "Break stuck lug nuts loose in driveway"
+          },
+          {
+            "id": "torque-wrench-half",
+            "d": "Final lug torque at home or shop"
+          },
+          {
+            "n": "Factory jack and lug wrench",
+            "d": "Likely carried roadside tools",
+            "q": "vehicle factory jack lug wrench kit"
+          },
+          {
+            "n": "Wheel lock key",
+            "d": "Required if locking lug nuts are installed",
+            "q": "wheel lock key set"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Spare tire support",
+            "items": [
+              {
+                "n": "Inflated spare tire or tire repair kit",
+                "d": "Verify before a trip",
+                "q": "compact spare tire inflator kit"
+              },
+              {
+                "n": "Replacement lug nuts",
+                "d": "For damaged or swollen lugs",
+                "q": "replacement lug nuts vehicle specific"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776652041
     }
   ]
 }
