@@ -930,6 +930,186 @@
       "reviews": [],
       "submittedBy": "ninja@thesharp.ninja",
       "submittedAt": 1783776671108
+    },
+    {
+      "id": "mkt-blown-fuse-quick-check-lights-wipers-out-20260711133104",
+      "guide": {
+        "title": "Blown Fuse Quick Check — Lights, Wipers, Outlet, Trailer",
+        "subtitle": "Safe roadside electrical triage for all 20 selected vehicles",
+        "safety": "Replace a fuse only with the same amp rating. If the replacement blows immediately, stop. A blown fuse is a symptom; repeatedly replacing it can overheat wiring.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Identify the Circuit",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Find the correct fuse box and label",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Use the owner manual, fuse-box cover, or phone photo of the fuse map.",
+                      "Target only low-risk accessories such as power outlet, washer pump, wipers, horn, lamps, or trailer lights.",
+                      "Turn the vehicle off before pulling a fuse unless the manual says otherwise."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "Do not bypass a fuse",
+                    "text": "Foil, wire, oversized fuses, and jumper hacks can start a fire."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Pull and test without damaging the panel",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: fuse puller, same-amp mini/low-profile fuse assortment, test light or multimeter, and owner manual.",
+                      "Likely-carried tool: spare fuse from the panel, needle-nose pliers, phone camera zoom, and the fuse-box cover diagram.",
+                      "No-go if: the fuse blows again, there is melted plastic, a burning smell, wet electronics, or the circuit is safety-critical and still dead."
+                    ]
+                  },
+                  {
+                    "type": "tip",
+                    "title": "One spare only",
+                    "text": "A single same-amp replacement is a diagnostic step. A second blown fuse means the fault is still present."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Replace and Verify",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Restore the circuit or stop safely",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Compare the suspect fuse to a known-good same-size fuse or test continuity.",
+                      "Install only the same amp rating.",
+                      "Operate the circuit once while watching for immediate failure.",
+                      "If it fails again, leave it off and plan a wiring diagnosis."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "Same amp rating installed",
+                      "Fuse seated fully",
+                      "Fuse-box cover reinstalled",
+                      "Cause recorded for driveway diagnosis"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "n": "Fuse puller",
+            "d": "Remove small blade fuses",
+            "q": "automotive fuse puller"
+          },
+          {
+            "n": "Automotive fuse assortment",
+            "d": "Same-amp replacement",
+            "q": "mini low profile automotive fuse assortment"
+          },
+          {
+            "id": "multimeter",
+            "d": "Continuity or voltage check"
+          },
+          {
+            "id": "pliers-set",
+            "d": "Likely fallback for fuse removal"
+          },
+          {
+            "id": "work-light",
+            "d": "See panel labels"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Electrical",
+            "items": [
+              {
+                "n": "Same-amp blade fuse",
+                "d": "Never upsize",
+                "q": "automotive blade fuse same amp"
+              },
+              {
+                "n": "Owner manual fuse chart",
+                "d": "Use exact circuit map",
+                "q": "vehicle owner manual fuse chart"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776664334
     }
   ]
 }
