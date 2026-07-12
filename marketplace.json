@@ -748,6 +748,188 @@
       "reviews": [],
       "submittedBy": "ninja@thesharp.ninja",
       "submittedAt": 1783776674298
+    },
+    {
+      "id": "mkt-mild-overheat-or-low-coolant-roadside-tr-20260711133111",
+      "guide": {
+        "title": "Mild Overheat or Low Coolant — Roadside Triage Only",
+        "subtitle": "Cool down, top off if safe, then get to a shop or driveway diagnosis",
+        "safety": "Never open a hot radiator or pressurized coolant cap. Steam, red temperature warning, fast coolant loss, oil/coolant mixing, belt failure, or repeated overheating means tow.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Cool Down",
+            "color": "#b91c1c",
+            "steps": [
+              {
+                "t": "Stop heat damage before adding fluid",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Turn off A/C, turn heat to hot if you must limp a short distance to safety, then park and shut down.",
+                      "Open the hood from the cabin release and wait at least 30 minutes before touching caps or hoses.",
+                      "Look from a distance for steam, coolant pouring out, broken belt, or electric fan damage."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "Hot coolant can blind or burn",
+                    "text": "Do not loosen a hot cap. Waiting is part of the repair."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Top off only when the system is cool",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: correct premixed coolant, spill-free funnel, gloves, rags, flashlight, and OBD2 scanner for temperature data.",
+                      "Likely-carried tool: bottled water as a temporary top-off, towel, phone flashlight, and heater controls.",
+                      "No-go if: temperature warning is red, coolant pours out, there is steam, oil pressure warning appears, or the engine knocks."
+                    ]
+                  },
+                  {
+                    "type": "crit",
+                    "title": "Water is only a get-safe measure",
+                    "text": "Plain water reduces freeze and corrosion protection. Replace with the correct coolant mix after the emergency."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Limp or Tow",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Verify it stays cool before moving",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "When cool, check the overflow bottle first; add premix to the marked level if low.",
+                      "If the system has a safe degas bottle cap and is fully cool, top off slowly.",
+                      "Restart and watch the gauge for a few minutes before moving.",
+                      "Drive only to a nearby safe location if the gauge stays normal."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "Cap left closed until cool",
+                      "Coolant level visible in reservoir",
+                      "Gauge stable before moving",
+                      "Driveway leak check or shop visit planned"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "id": "coolant-funnel",
+            "d": "Clean coolant top-off at home"
+          },
+          {
+            "id": "funnel-set",
+            "d": "Roadside controlled pour"
+          },
+          {
+            "id": "obd2-scanner",
+            "d": "Read coolant temperature in driveway"
+          },
+          {
+            "id": "gloves-glasses",
+            "d": "PPE"
+          },
+          {
+            "id": "shop-rags",
+            "d": "Cleanup and cap handling"
+          },
+          {
+            "id": "work-light",
+            "d": "Leak inspection"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Cooling",
+            "items": [
+              {
+                "n": "Correct premixed coolant",
+                "d": "Match vehicle spec and color chemistry",
+                "q": "premixed coolant vehicle specific"
+              },
+              {
+                "n": "Distilled water",
+                "d": "Temporary dilution or emergency top-off",
+                "q": "distilled water gallon"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776671108
     }
   ]
 }
