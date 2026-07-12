@@ -1110,6 +1110,191 @@
       "reviews": [],
       "submittedBy": "ninja@thesharp.ninja",
       "submittedAt": 1783776664334
+    },
+    {
+      "id": "mkt-low-tire-or-slow-tread-leak-inflate-seal-20260711133047",
+      "guide": {
+        "title": "Low Tire or Slow Tread Leak — Inflate, Seal, or Plug",
+        "subtitle": "Applies to the 20 selected 2012–2022 vehicles",
+        "safety": "Only work where the vehicle is fully out of traffic and parked on firm, level ground. Do not repair sidewall damage, shoulder damage, a shredded tire, a bent wheel, or a tire driven flat long enough to overheat.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Inspect",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Confirm it is a slow tread leak",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Read the cold PSI target on the driver-door placard, not the tire sidewall maximum.",
+                      "Check all four tires and the spare if equipped.",
+                      "Look for a nail or screw in the tread area, a leaking valve stem, bead leak, wheel damage, sidewall bubble, or split sidewall."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "Sidewall damage means stop",
+                    "text": "Do not plug or seal a sidewall. Install the spare or call for a tow."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Use the best tire tool available",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: tire pressure gauge, 12V inflator, tread-only plug kit with reamer/plug tool, soapy water, pliers, and valve-core tool.",
+                      "Likely-carried tool: OEM inflator/sealant kit, gas-station air pump, phone flashlight, gloves, and the door-jamb placard.",
+                      "No-go if: the tire loses air quickly, the puncture is larger than about 1/4 inch, the wheel is bent, or the car must be jacked on an unsafe shoulder."
+                    ]
+                  },
+                  {
+                    "type": "crit",
+                    "title": "Sealant is temporary",
+                    "text": "OEM sealant can damage TPMS sensors and is meant to get you to a tire shop, not to avoid a proper repair."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Inflate and Verify",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Get to a safe repair location",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Inflate to the placard PSI and wait a few minutes.",
+                      "If pressure holds, drive slowly to a tire shop or home and recheck pressure.",
+                      "If using a plug kit, plug only a small tread puncture and trim the plug flush after reinflating.",
+                      "If pressure falls again, stop and use the spare or tow."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "Pressure matches door placard",
+                      "TPMS warning understood and monitored",
+                      "No sidewall or shoulder repair attempted",
+                      "Tire shop follow-up planned for internal patch/plug inspection"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "n": "Tire pressure gauge",
+            "d": "Read actual PSI",
+            "q": "digital tire pressure gauge"
+          },
+          {
+            "n": "12V tire inflator",
+            "d": "Roadside inflation",
+            "q": "12v portable tire inflator"
+          },
+          {
+            "n": "Tire plug kit",
+            "d": "Temporary tread puncture repair",
+            "q": "tubeless tire plug kit"
+          },
+          {
+            "id": "pliers-set",
+            "d": "Pull nail or screw from tread"
+          },
+          {
+            "id": "gloves-glasses",
+            "d": "PPE"
+          },
+          {
+            "id": "work-light",
+            "d": "Night inspection"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Temporary tire repair",
+            "items": [
+              {
+                "n": "Tire plugs or OEM sealant cartridge",
+                "d": "Use only as directed",
+                "q": "tire repair plugs OEM tire sealant"
+              },
+              {
+                "n": "Valve stem caps",
+                "d": "Keep dirt out after inflation",
+                "q": "tire valve stem caps"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776647638
     }
   ]
 }
