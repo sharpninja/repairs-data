@@ -565,6 +565,189 @@
       "reviews": [],
       "submittedBy": "ninja@thesharp.ninja",
       "submittedAt": 1783776677767
+    },
+    {
+      "id": "mkt-dragging-splash-shield-or-loose-trim-tem-20260711133114",
+      "guide": {
+        "title": "Dragging Splash Shield or Loose Trim — Temporary Roadside Secure",
+        "subtitle": "Stop scraping without crawling under the vehicle",
+        "safety": "Do not crawl under a vehicle at the roadside. Do not reach near hot exhaust, moving belts, rotating fans, or traffic. If the loose part contacts a tire, brake line, fuel line, or exhaust, tow.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Inspect from the Edge",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Identify what is dragging",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Park safely, set the brake, and let hot parts cool.",
+                      "Look from the side, front, or wheel well; use the phone camera rather than putting your head under the vehicle.",
+                      "Confirm the loose item is plastic splash shield, fender liner, bumper trim, or heat shield edge, not a brake, fuel, steering, suspension, or exhaust part."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "Structural or fluid parts are not trim",
+                    "text": "If a line, cable, metal arm, exhaust hanger, or wheel-area part is loose, stop and tow."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Secure it for a short limp only",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: trim-clip assortment, trim tools, zip ties, side cutters, screwdriver set, gloves, and work light.",
+                      "Likely-carried tool: duct tape, zip ties, shoelace, pocket knife, phone flashlight, and gloves.",
+                      "No-go if: the part can touch a tire, driveshaft, axle, belt, fan, hot exhaust, or the repair requires getting under the vehicle."
+                    ]
+                  },
+                  {
+                    "type": "crit",
+                    "title": "Tape is not enough near heat",
+                    "text": "Tape can melt or let go. Keep temporary supports away from exhaust and moving parts."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Secure and Recheck",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Tie upward, then inspect after a short roll",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Use existing holes or solid plastic edges to zip-tie the loose panel upward.",
+                      "Trim zip-tie tails and verify nothing can rub the tire at full steering lock.",
+                      "Drive slowly around a parking lot, stop, and recheck.",
+                      "Replace broken clips or damaged panels in the driveway."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "No part contacts tire, brake, belt, fan, axle, or exhaust",
+                      "Temporary tie cannot drag loose",
+                      "Noise gone at low speed",
+                      "Permanent clips or panel repair planned"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "id": "trim-tools",
+            "d": "Remove and reseat plastic clips"
+          },
+          {
+            "id": "screwdriver-set",
+            "d": "Loose screws or retainers"
+          },
+          {
+            "id": "pliers-set",
+            "d": "Pull damaged clips and tension zip ties"
+          },
+          {
+            "id": "work-light",
+            "d": "Inspect from wheel well"
+          },
+          {
+            "id": "gloves-glasses",
+            "d": "PPE"
+          },
+          {
+            "n": "Zip ties and side cutters",
+            "d": "Temporary securement",
+            "q": "heavy duty zip ties flush cutters"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Temporary trim repair",
+            "items": [
+              {
+                "n": "Automotive trim clip assortment",
+                "d": "Driveway permanent reattachment",
+                "q": "automotive push retainer clip assortment"
+              },
+              {
+                "n": "Heavy-duty zip ties",
+                "d": "Roadside temporary support",
+                "q": "heavy duty black zip ties"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776674298
     }
   ]
 }
