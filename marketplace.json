@@ -1649,6 +1649,196 @@
       "reviews": [],
       "submittedBy": "ninja@thesharp.ninja",
       "submittedAt": 1783776660762
+    },
+    {
+      "id": "mkt-visibility-roadside-fixes-wipers-washer--20260711133107",
+      "guide": {
+        "title": "Visibility Roadside Fixes — Wipers, Washer Fluid, and Bulbs",
+        "subtitle": "Get safe visibility back before continuing",
+        "safety": "Poor visibility is a stop-now condition in rain, snow, fog, or darkness. Do not continue at highway speed with failed wipers, empty washer fluid during road spray, or missing required lights at night.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Decide What Failed",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Separate fluid, blade, fuse, and bulb faults",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "If the windshield is dirty and the pump runs, add washer fluid.",
+                      "If the blade smears, chatters, splits, or leaves an arc, replace the blade.",
+                      "If wipers or washer pump are dead, check the related fuse only if the location is safe.",
+                      "If a bulb is out, replace only an accessible bulb you can reach without removing major parts roadside."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "Night and rain change the decision",
+                    "text": "If you cannot see or cannot be seen, stop somewhere safe and fix it, wait it out, or tow."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Use a simple visibility kit",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: correct-length wiper blades, washer fluid rated for the temperature, bulb gloves, correct bulb, trim tool, and screwdriver set.",
+                      "Likely-carried tool: gas-station universal blade, gas-station washer fluid, paper towel, spare fuse, phone flashlight, and gloves.",
+                      "No-go if: the wiper arm spring is broken, linkage is loose, headlight housing must be removed beside traffic, or wiring is melted."
+                    ]
+                  },
+                  {
+                    "type": "crit",
+                    "title": "Do not touch halogen glass",
+                    "text": "Skin oil can shorten bulb life. Use gloves or a clean towel."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Restore and Check",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Verify visibility before driving",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Fill washer fluid and run the spray briefly.",
+                      "Install the blade until the latch clicks, then gently lower the arm onto the glass.",
+                      "Replace accessible bulbs with the correct part number and confirm function.",
+                      "Clean glass, mirrors, lights, and camera lenses before leaving."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "Wipers sweep without metal-on-glass contact",
+                      "Washer fluid sprays both sides",
+                      "Headlights, brake lights, turn signals, and hazards checked",
+                      "Temporary bulb or blade fix replaced with correct part if needed"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "id": "screwdriver-set",
+            "d": "Lamp access panels and retainers"
+          },
+          {
+            "id": "trim-tools",
+            "d": "Plastic clips without breakage"
+          },
+          {
+            "id": "gloves-glasses",
+            "d": "PPE and bulb handling"
+          },
+          {
+            "id": "work-light",
+            "d": "Night bulb and blade work"
+          },
+          {
+            "n": "Correct wiper blades",
+            "d": "Best fix for smearing or split rubber",
+            "q": "wiper blades vehicle specific"
+          },
+          {
+            "n": "Washer fluid",
+            "d": "Road spray visibility",
+            "q": "all season windshield washer fluid"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Visibility",
+            "items": [
+              {
+                "n": "Wiper blade pair",
+                "d": "Match driver and passenger lengths",
+                "q": "wiper blades for my vehicle"
+              },
+              {
+                "n": "Washer fluid",
+                "d": "Use freeze-rated fluid in winter",
+                "q": "windshield washer fluid deicer"
+              },
+              {
+                "n": "Exterior bulb",
+                "d": "Match bulb number for VIN/trim",
+                "q": "vehicle headlight brake turn signal bulb"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776667492
     }
   ]
 }
