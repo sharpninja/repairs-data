@@ -386,6 +386,185 @@
         }
       ],
       "addedAt": 1715000000000
+    },
+    {
+      "id": "mkt-light-traction-recovery-snow-mud-sand-or-20260711133117",
+      "guide": {
+        "title": "Light Traction Recovery — Snow, Mud, Sand, or Grass",
+        "subtitle": "SUVs, trucks, and crossovers in the 20-vehicle set",
+        "safety": "This is for low-speed self-recovery only. Do not stand near spinning tires or tow straps. Do not use non-rated bumper, hitch ball, suspension, or tie-down points for pulling.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Terrain",
+            "Grand Cherokee",
+            "Wrangler",
+            "Sorento",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Stop Digging",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Prevent the vehicle from sinking deeper",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Stop spinning tires as soon as forward motion stops.",
+                      "Clear snow, mud, sand, or grass from in front of the drive tires and under low-hanging panels.",
+                      "Turn traction control to the mode recommended by the owner manual for snow, sand, mud, or low-speed rocking."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "No strap heroics",
+                    "text": "Recovery straps and kinetic ropes require rated recovery points and training. A hitch ball can become a projectile."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Add traction without damaging the vehicle",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: traction boards, shovel, tire gauge, gloves, and rated recovery point knowledge from the owner manual.",
+                      "Likely-carried tool: floor mats as a last-resort traction surface, cardboard, sand or kitty litter, small shovel, and phone flashlight.",
+                      "No-go if: water is rising, the vehicle is high-centered, a wheel is hanging, traffic is close, or a pull requires unrated attachment points."
+                    ]
+                  },
+                  {
+                    "type": "crit",
+                    "title": "Floor mats are sacrificial",
+                    "text": "They can shoot out or be destroyed. Keep people clear and use them only to get to a safer surface."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Recover Slowly",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Rock gently and stop if it worsens",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Place traction material tight against the drive tires in the direction of travel.",
+                      "Use light throttle only; rocking between reverse and drive should be gentle and brief.",
+                      "Once moving, keep momentum to firm ground without hard steering or high speed.",
+                      "Recheck for damaged splash shields, tires, and warning lights."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "No one stood in front of or behind spinning tires",
+                      "Vehicle reached firm ground",
+                      "Undercarriage and tires checked",
+                      "Professional recovery called if the first careful attempts failed"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "n": "Traction boards",
+            "d": "Best self-recovery aid",
+            "q": "vehicle traction boards snow mud sand"
+          },
+          {
+            "n": "Compact shovel",
+            "d": "Clear packed material",
+            "q": "folding vehicle recovery shovel"
+          },
+          {
+            "n": "Sand or kitty litter",
+            "d": "Likely traction material",
+            "q": "traction sand kitty litter vehicle"
+          },
+          {
+            "id": "gloves-glasses",
+            "d": "PPE"
+          },
+          {
+            "id": "work-light",
+            "d": "Night recovery"
+          },
+          {
+            "n": "Tire pressure gauge",
+            "d": "Check pressure after recovery",
+            "q": "digital tire pressure gauge"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Recovery supplies",
+            "items": [
+              {
+                "n": "Traction board pair",
+                "d": "Reusable recovery surface",
+                "q": "off road traction boards pair"
+              },
+              {
+                "n": "Compact shovel",
+                "d": "Dig out tires and underbody",
+                "q": "folding snow mud shovel car"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776677767
     }
   ]
 }
