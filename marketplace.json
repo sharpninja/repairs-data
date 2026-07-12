@@ -1466,6 +1466,189 @@
       "reviews": [],
       "submittedBy": "ninja@thesharp.ninja",
       "submittedAt": 1783776597511
+    },
+    {
+      "id": "mkt-dead-12v-battery-jump-terminal-check-and-20260711133100",
+      "guide": {
+        "title": "Dead 12V Battery — Jump, Terminal Check, and Driveway Follow-up",
+        "subtitle": "Applies to all 20 selected vehicles",
+        "safety": "Do not jump a frozen, cracked, leaking, swollen, or rotten-egg-smelling battery. Keep sparks away from the battery. Hybrid and start-stop vehicles may have special jump posts; use the owner manual.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Confirm the Symptom",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Separate battery failure from other no-starts",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Listen for rapid clicking, weak dash lights, or no crank after lights were left on.",
+                      "Check that the gear selector is in Park or Neutral and the brake pedal is pressed.",
+                      "Inspect battery terminals for looseness, heavy corrosion, or a clamp that rotates by hand."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "Tow instead",
+                    "text": "Tow or get professional help if there is smoke, melted wiring, fuel smell, crash damage, or repeated stalling after a jump."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#d97757",
+            "steps": [
+              {
+                "t": "Jump with the safest available gear",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: lithium jump pack with reverse-polarity protection, safety glasses, 10mm wrench, terminal brush, and multimeter.",
+                      "Likely-carried tool: jumper cables and a helper vehicle, adjustable wrench, bottled water for light corrosion cleanup, and phone flashlight.",
+                      "No-go if: terminals are damaged, battery case is compromised, cables get hot, or the vehicle dies again immediately after removing the jump source."
+                    ]
+                  },
+                  {
+                    "type": "crit",
+                    "title": "Use the marked jump points",
+                    "text": "Many vehicles route negative clamps to a remote ground point. Follow the owner manual instead of guessing at hidden batteries."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Start and Follow Up",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Start, remove clamps, and plan the real fix",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Connect positive to positive, then negative to the specified ground point.",
+                      "Start the disabled vehicle and remove clamps in reverse order without letting clamps touch.",
+                      "Let the vehicle run long enough to reach a safer place, then test battery and charging voltage in the driveway or at a parts store."
+                    ]
+                  },
+                  {
+                    "type": "check",
+                    "items": [
+                      "Correct polarity used",
+                      "Terminals tight enough that they do not rotate",
+                      "Charging/battery test planned",
+                      "Radio/window/idle relearn handled if the vehicle requires it"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "n": "Portable jump starter",
+            "d": "Best roadside jump source",
+            "q": "portable lithium jump starter"
+          },
+          {
+            "n": "Jumper cables",
+            "d": "Likely carried fallback",
+            "q": "heavy duty jumper cables"
+          },
+          {
+            "id": "combo-wrench-metric",
+            "d": "Tighten common 10mm battery clamps"
+          },
+          {
+            "id": "multimeter",
+            "d": "Driveway battery and charging check"
+          },
+          {
+            "id": "gloves-glasses",
+            "d": "PPE"
+          },
+          {
+            "id": "work-light",
+            "d": "Night terminal work"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Battery support",
+            "items": [
+              {
+                "n": "Battery terminal brush",
+                "d": "Clean corrosion",
+                "q": "battery terminal cleaning brush"
+              },
+              {
+                "n": "Battery terminal protectant",
+                "d": "Driveway follow-up after cleaning",
+                "q": "battery terminal protector spray"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776660762
     }
   ]
 }
