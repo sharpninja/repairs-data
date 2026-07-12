@@ -1295,6 +1295,177 @@
       "reviews": [],
       "submittedBy": "ninja@thesharp.ninja",
       "submittedAt": 1783776647638
+    },
+    {
+      "id": "mkt-roadside-safety-first-20-vehicle-set-20260711132957",
+      "guide": {
+        "title": "Roadside Safety First — 20 Vehicle Set",
+        "subtitle": "Stop, position, decide: fix, limp, tow, or call 911",
+        "safety": "Your first repair is getting out of danger. Do not work in a live lane, on a blind curve, on soft ground, or beside fast traffic. Injury, fire, crash damage, fuel smell, smoke, brake failure, steering failure, oil-pressure warning, or unsafe shoulder means call emergency help or a tow.",
+        "region": "us",
+        "env": [
+          "roadside",
+          "driveway"
+        ],
+        "fits": {
+          "makes": [
+            "Chevrolet",
+            "Dodge",
+            "Ford",
+            "GMC",
+            "Hyundai",
+            "Jeep",
+            "Kia",
+            "Nissan",
+            "Ram"
+          ],
+          "models": [
+            "Equinox",
+            "Malibu",
+            "Silverado 1500",
+            "Traverse",
+            "Journey",
+            "Edge",
+            "Escape",
+            "Explorer",
+            "F-150",
+            "Focus",
+            "Fusion",
+            "Terrain",
+            "Sonata",
+            "Grand Cherokee",
+            "Wrangler",
+            "Optima",
+            "Sorento",
+            "Altima",
+            "Rogue",
+            "1500"
+          ],
+          "yearFrom": 2012,
+          "yearTo": 2022
+        },
+        "phases": [
+          {
+            "name": "Phase 1 · Get Safe",
+            "color": "#b91c1c",
+            "steps": [
+              {
+                "t": "Move out of traffic before diagnosing",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      "Signal early, slow smoothly, and aim for the widest shoulder, parking lot, side street, or ramp gore you can reach safely.",
+                      "Turn on **hazard lights**, set the parking brake, and keep passengers away from traffic.",
+                      "Exit on the passenger side when the driver door opens toward traffic. If you cannot exit safely, stay belted and call for help."
+                    ]
+                  },
+                  {
+                    "type": "danger",
+                    "title": "No shoulder, no repair",
+                    "text": "A narrow shoulder on a fast road is not a work area. Call roadside assistance or 911 depending on the danger."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 · Tool Choice",
+            "color": "#4a86c5",
+            "steps": [
+              {
+                "t": "Pick the visibility tools first",
+                "allowMedia": true,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Proper tool: reflective triangles, LED flare, high-visibility vest, gloves, and a headlamp.",
+                      "Likely-carried tool: hazard lights, phone flashlight, bright clothing, a passenger with a phone, and the vehicle manual.",
+                      "No-go if: traffic-side work is required, the vehicle is unstable, weather makes you hard to see, or you feel rushed by passing traffic."
+                    ]
+                  },
+                  {
+                    "type": "tip",
+                    "title": "Use the phone early",
+                    "text": "Share your location before starting. If the repair fails, help is already in motion."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 · Fix-or-Tow Decision",
+            "color": "#3f8a49",
+            "steps": [
+              {
+                "t": "Choose the safest next move",
+                "allowMedia": false,
+                "body": [
+                  {
+                    "type": "check",
+                    "items": [
+                      "Tow: crash damage, fire/smoke, fuel smell, brake or steering loss, red oil-pressure warning, severe overheating, wheel damage, sidewall tire damage, or no safe workspace.",
+                      "Roadside fix: low tire, dead 12V battery, blown accessory fuse, loose splash shield, washer/wiper issue, or mild coolant top-off with the engine cooled.",
+                      "Driveway follow-up: recheck torque, pressure, coolant level, battery terminals, fuse cause, and temporary repairs before normal driving."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "n": "Reflective triangles or LED flares",
+            "d": "Warn approaching traffic",
+            "q": "roadside emergency triangles LED flare"
+          },
+          {
+            "n": "High-visibility vest",
+            "d": "Make the driver visible",
+            "q": "ANSI reflective safety vest"
+          },
+          {
+            "id": "work-light",
+            "d": "Headlamp or work light for night work"
+          },
+          {
+            "id": "gloves-glasses",
+            "d": "Hand and eye protection"
+          },
+          {
+            "n": "Phone with charger",
+            "d": "Location sharing and emergency calls",
+            "q": "12v usb car charger"
+          }
+        ],
+        "parts": [
+          {
+            "g": "Roadside kit",
+            "items": [
+              {
+                "n": "Roadside emergency marker kit",
+                "d": "Triangles, flare, or beacon",
+                "q": "roadside emergency kit reflective triangles"
+              },
+              {
+                "n": "Printed owner manual or saved PDF",
+                "d": "Jack points, fuse maps, tow limits",
+                "q": "vehicle owner manual PDF"
+              }
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "avg": 0,
+        "count": 0
+      },
+      "reviews": [],
+      "submittedBy": "ninja@thesharp.ninja",
+      "submittedAt": 1783776597511
     }
   ]
 }
